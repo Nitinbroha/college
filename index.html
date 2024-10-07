@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+</head>
+<body>
+   
+    <div class="box">
+   
+    <h2>Input</h2>
+    <div> 
+    <p>Algorithm</p>
+    <select class="box2">
+        <option > First come First serve,FCFS</option>
+        <option >Shortest Remaining Time First,SRTF</option>
+        <option > Shortest Job First,SJF(non-preemptive)</option>
+        <option > Round-Robin,RR</option>
+        <option >Priority(non-preemptive)</option>
+        <option >Priority(preemptive)</option>
+    </select></div> <div>
+    <p>Arrival</p>
+   <input type="text" placeholder="e.g 2 4 6 8 " class="box3"></div> 
+    <p>Burst Times</p>
+    <input type="text" placeholder="e.g.2 4 6 8 10" class="box4"><br><br>
+    <button class="s1">Solve</button>
+
+</div>
+    <div class="output">
+        
+        <h1>Output</h1>  
+        <p>Gantt chart and table will be shown here</p>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Job</th>
+                        <th>Arrival Time</th>
+                        <th>Burst Time</th>
+                        <th>Finish Time</th>
+                        <th>Turnaround</th>
+                        <th>waiting Time</th>
+                    </tr>
+                </thead>
+                <tbody  class="tablebody">
+
+                </tbody>
+                   
+                 <tfoot class="footer">
+                    <tr>
+                        <th colspan="4">Average</th>
+                        <th >data</th>
+                        <th >data</th>
+                    </tr>
+                 </tfoot>
+            </table>
+        </div>
+    </div> 
+    <script src="app.js"></script>
+
+<div class="icon">
+    <i class="fa-brands fa-github"> GitHub    </i>     |   <i class="fa-regular fa-comment"> Feedback</i>
+</div>
+</body>
+</html>

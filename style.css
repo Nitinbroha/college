@@ -1,0 +1,120 @@
+body{
+   margin: 0;
+   padding: 0;
+
+ 
+}
+.box:hover{
+    border-color: cadetblue;
+}
+.box{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+     padding: 40px;
+     margin: 40px;
+  
+     border-radius: 20px;
+
+
+}
+.box2{
+    width: 115%;
+    align-items: center;
+    border-color: transparent;
+    height: 40px;
+    width: 100%;
+}
+.box3{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    border-color: transparent;
+
+}
+.box4{
+    width: 100%;
+    align-items: center;
+    height: 30px;
+   border-color: transparent;
+}
+.s1{
+    background-color: blue;
+    font-size: 1rem;
+    color: aliceblue;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+    cursor: pointer;
+
+}
+.output{
+   background-color: antiquewhite;
+   border-radius: 20px;
+   background-color: lightblue;
+   padding: 40px;
+   margin: 40px;
+   margin-left: 40px;
+   /* display: none; */
+}
+.table {
+    margin: 30px auto;
+    width: 90%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+
+.icon{
+    margin: 40px;
+}
+
+@media(max-width:768px){
+    .box{
+        padding: 40px;
+        margin: 40px;
+    }
+  .output{
+    margin:40px;
+    font-size: small;
+
+  }
+}
+@media (max-width: 768px) {
+    input, button {
+      width: 80%;
+      max-width: none;
+    }
+  
+    table, th, td {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    th, td {
+      padding: 10px;
+      font-size: 12px;
+    }
+  }
